@@ -1,12 +1,20 @@
 {
   "name": "playwright-cucumber-e2e-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "JavaScript end-to-end testing starter using Playwright, Cucumber.js, Page Objects and Chai.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js --require features/**/*.js --format html:./reports/cucumber_report.html --format summary --format @cucumber/pretty-formatter --no-strict --publish-quiet"
   },
-  "keywords": [],
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "cucumber-js",
+    "e2e",
+    "end-to-end-testing",
+    "test-automation",
+    "page-object-model"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
